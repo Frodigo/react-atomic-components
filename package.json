@@ -48,5 +48,8 @@
       "src/components/**/*.{js,jsx}",
       "!src/components/**/*.stories.{js,jsx}"
     ]
+  },
+  "devDependencies": {
+    "chromatic": "^5.10.2"
   }
 }
