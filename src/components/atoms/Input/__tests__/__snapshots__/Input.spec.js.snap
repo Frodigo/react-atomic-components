@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should be rendered Input disabled renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <input
+      class="input inputDisabled null"
+      data-testid="input"
+      disabled=""
+      placeholder="Type here..."
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input should be rendered Input error renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <input
+      class="input inputError null"
+      data-testid="input"
+      placeholder="Type here..."
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input should be rendered Input focus renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <input
+      class="input inputFocus null"
+      data-testid="input"
+      placeholder="Type here..."
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input should be rendered Input renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <input
+      class="input null"
+      data-testid="input"
+      placeholder="Type here..."
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input should be rendered error message renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <textarea
+      class="input textarea hasError"
+      data-testid="input"
+      placeholder="Type here..."
+    />
+    <span
+      class="errorMessage"
+    >
+      error
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Input should be rendered textarea renders correctly 1`] = `
+<div>
+  <div
+    class="field"
+  >
+    <textarea
+      class="input textarea null"
+      data-testid="input"
+      placeholder="Type here..."
+    />
+  </div>
+</div>
+`;

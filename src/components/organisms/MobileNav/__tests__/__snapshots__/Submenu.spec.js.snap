@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Submenu should be rendered Submenu renders correctly 1`] = `
+<div>
+  <button
+    class="submenuTrigger"
+    type="button"
+  >
+    <span
+      class="iconContainer"
+    >
+      <img
+        alt="Blog"
+        src="[object Object]"
+      />
+      <span
+        class="label"
+      >
+        Blog
+      </span>
+    </span>
+  </button>
+  <nav
+    class="submenu"
+  >
+    <header
+      class="submenuHeader"
+    >
+      <h2
+        class="inverse"
+      >
+        Read about:
+      </h2>
+    </header>
+    <div
+      class="submenuItems"
+    >
+      <a
+        class="submenuItem"
+        href="/pwastudio"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="PWA Studio"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            PWA Studio
+          </span>
+        </span>
+      </a>
+    </div>
+    <a
+      class="tiertary"
+      href="/blog"
+      style="margin-top: 30px;"
+    >
+      Show all
+    </a>
+  </nav>
+</div>
+`;

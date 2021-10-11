@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image carousel should be rendered Image carousel renders correctly 1`] = `
+<div>
+  <div
+    class="carousel"
+  >
+    <h2
+      class="title"
+    >
+      Image carousel
+    </h2>
+    <div
+      class="slick-slider slick-initialized"
+    >
+      
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="figure"
+                height="auto"
+                src="https://via.placeholder.com/208x117"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="auto"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="figure"
+                height="auto"
+                src="https://via.placeholder.com/260x117"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="auto"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="figure"
+                height="auto"
+                src="https://via.placeholder.com/108x117"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="auto"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <img
+                alt="figure"
+                height="auto"
+                src="https://via.placeholder.com/58x117"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+                width="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+`;

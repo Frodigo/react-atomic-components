@@ -1,0 +1,25 @@
+.dots {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: var(--spacing-xs) 0;
+}
+
+.dot {
+    background: none;
+    border: solid 1px var(--color-tiertary);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    font-size: 0;
+    margin: 0 5px;
+    outline: none;
+    width: 20px;
+}
+
+.dotActive {
+    composes: dot;
+    background-color: var(--color-tiertary);
+    cursor: default;
+    pointer-events: none;
+}

@@ -1,0 +1,46 @@
+.hero {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.figure {
+    width: 100%;
+}
+
+.figureDesktop {
+    display: none;
+}
+
+.section {
+    padding: var(--spacing-md);
+}
+
+
+@media (min-width: 960px) {
+    .hero {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .figure {
+        display: none;
+    }
+
+    .figureDesktop {
+        display: block;
+        flex: 1 1 50%;
+    }
+
+    .section {
+        padding: var(--spacing-xxl);
+        flex: 1 1 50%;
+    }
+}

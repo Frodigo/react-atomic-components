@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter organism Newsletter renders correctly 1`] = `
+<div>
+  <form
+    action="#"
+    class="newsletter"
+    id="newsletter"
+    method="post"
+  >
+    <div
+      class="newsletterContent"
+    >
+      <h3
+        class="title"
+      >
+        Subscribe to the newsletter
+      </h3>
+      <p
+        class="paraghaph"
+      >
+        I will keep you informed about each new blog entry
+      </p>
+      <div
+        class="fieldset"
+      >
+        <div
+          class="field"
+        >
+          <input
+            class="input null"
+            data-testid="input"
+            name="first_name"
+            placeholder="Your name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="field"
+        >
+          <input
+            class="input null"
+            data-testid="input"
+            name="email"
+            placeholder="Your email"
+            type="email"
+            value=""
+          />
+        </div>
+      </div>
+      <input
+        name="campaign_token"
+        type="hidden"
+        value="abc"
+      />
+      <input
+        name="thankyou_url"
+        type="hidden"
+        value=""
+      />
+      <input
+        name="start_day"
+        type="hidden"
+        value="0"
+      />
+      <footer
+        class="footer"
+      >
+        <p>
+          Also i will send you send you PDF with 112 pages about PWA Studio Rich Content renderers
+        </p>
+        <button
+          class="primary"
+          type="submit"
+        >
+          Subscribe
+        </button>
+      </footer>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be rendered Button renders correctly 1`] = `
+<div>
+  <button
+    class="primary"
+    type="button"
+  >
+    Call to action
+  </button>
+</div>
+`;
+
+exports[`Button should be rendered Disabled button renders correctly 1`] = `
+<div>
+  <button
+    class="secondary"
+    disabled=""
+    type="button"
+  >
+    Call to action
+  </button>
+</div>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaBlock should be rendered MediaBlock renders correctly 1`] = `
+<div>
+  <div
+    class="mediaBlock"
+  >
+    <div
+      class="mediaBlockInner"
+    >
+      <figure
+        class="image"
+      >
+        <img
+          alt="Lorem ipsum dolor sit"
+          src="https://via.placeholder.com/290x240"
+        />
+      </figure>
+      <section
+        class="content"
+      >
+        <h5
+          class=""
+        >
+          Lorem ipsum dolor sit
+        </h5>
+        <p
+          class="paraghaph"
+        >
+          Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. 
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+`;

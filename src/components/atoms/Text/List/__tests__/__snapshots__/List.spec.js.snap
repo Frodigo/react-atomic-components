@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should be rendered Ordered list renders correctly 1`] = `
+<div>
+  <ol>
+    <li>
+      item 1
+    </li>
+    <li>
+      item 2
+    </li>
+    <li>
+      item 3
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`List should be rendered Unordered list renders correctly 1`] = `
+<div>
+  <ul>
+    <li>
+      item 1
+    </li>
+    <li>
+      item 2
+    </li>
+    <li>
+      item 3
+    </li>
+  </ul>
+</div>
+`;

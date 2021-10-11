@@ -1,0 +1,817 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe should be rendered AboutMe renders correctly 1`] = `
+<div>
+  <div
+    class="about"
+  >
+    <header
+      class="pageHeader"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="link"
+          href="/"
+        >
+          <img />
+        </a>
+        <nav
+          class="primaryNav"
+        >
+          <a
+            class=" navLink"
+            href="#"
+          >
+            Home
+          </a>
+          <a
+            class="navLinkActive navLink"
+            href="#"
+          >
+            About me
+          </a>
+          <a
+            class=" navLink"
+            href="#"
+          >
+            Blog
+          </a>
+          <a
+            class=" navLink"
+            href="#"
+          >
+            Get in touch
+          </a>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="content"
+    >
+      <figure
+        class="mainFigureDesktop"
+        style="background-image: url(null);"
+      />
+      <section
+        class="mainContent"
+      >
+        <h1
+          class=""
+        >
+          Hey!
+        </h1>
+        <figure
+          class="mainFigure"
+          style="background-image: url(null);"
+        />
+        <p>
+          Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie.
+        </p>
+      </section>
+    </div>
+    <section
+      class="experience"
+    >
+      <h2
+        class=""
+      >
+        Work experience
+      </h2>
+      <div
+        class="mediaBlockSmaller"
+      >
+        <figure
+          class="figure"
+        >
+          <img
+            alt="Frontend Tech Leader"
+            src="https://via.placeholder.com/240x240"
+          />
+        </figure>
+        <section
+          class="content"
+        >
+          <span
+            class="subtitle"
+          >
+            05/2016 - 04/2020
+          </span>
+          <h3
+            class=""
+          >
+            Frontend Tech Leader
+          </h3>
+          Divante
+        </section>
+      </div>
+      <div
+        class="mediaBlockSmaller"
+      >
+        <figure
+          class="figure"
+        >
+          <img
+            alt="Frontend Tech Leader"
+            src="https://via.placeholder.com/240x240"
+          />
+        </figure>
+        <section
+          class="content"
+        >
+          <span
+            class="subtitle"
+          >
+            05/2016 - 04/2020
+          </span>
+          <h3
+            class=""
+          >
+            Frontend Tech Leader
+          </h3>
+          Divante
+        </section>
+      </div>
+    </section>
+    <div
+      class="skills"
+    >
+      <div
+        class="carousel"
+      >
+        <h2
+          class="title"
+        >
+          Tech skills
+        </h2>
+        <div
+          class="slick-slider slick-initialized"
+        >
+          
+          <div
+            class="slick-list"
+          >
+            <div
+              class="slick-track"
+              style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+            >
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active slick-current"
+                data-index="0"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <img
+                    alt="figure"
+                    height="auto"
+                    src="https://via.placeholder.com/208x117"
+                    style="width: 100%; display: inline-block;"
+                    tabindex="-1"
+                    width="auto"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active"
+                data-index="1"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <img
+                    alt="figure"
+                    height="auto"
+                    src="https://via.placeholder.com/260x117"
+                    style="width: 100%; display: inline-block;"
+                    tabindex="-1"
+                    width="auto"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active"
+                data-index="2"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <img
+                    alt="figure"
+                    height="auto"
+                    src="https://via.placeholder.com/108x117"
+                    style="width: 100%; display: inline-block;"
+                    tabindex="-1"
+                    width="auto"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active"
+                data-index="3"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <img
+                    alt="figure"
+                    height="auto"
+                    src="https://via.placeholder.com/58x117"
+                    style="width: 100%; display: inline-block;"
+                    tabindex="-1"
+                    width="auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div
+      class="certifications"
+    >
+      <h2
+        class=""
+      >
+        Certifications
+      </h2>
+      <p
+        class="paraghaph paragraphLarge "
+      >
+        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+      </p>
+      <ul
+        class="certificationList"
+      >
+        <li>
+          <a
+            href="#"
+          >
+            Certification 1
+          </a>
+          (10/2020)
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Certification 2
+          </a>
+          (10/2020)
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Certification 3
+          </a>
+          (10/2020)
+        </li>
+      </ul>
+    </div>
+    <div
+      class="testimonials"
+    >
+      <h2
+        class="testimonialsHeading"
+      >
+        Testimonials
+      </h2>
+      <div
+        class="slider"
+      >
+        <div
+          class="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <div
+            class="slick-list"
+          >
+            <div
+              class="slick-track"
+              style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+            >
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active slick-current"
+                data-index="0"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <figure
+                    class="figure"
+                  >
+                    <div
+                      class="inner"
+                    >
+                      <blockquote
+                        class="quote"
+                      >
+                        <span>
+                          svg
+                        </span>
+                        <p
+                          class="paraghaph"
+                          style="text-align: center;"
+                        >
+                          Lorem ipsum
+                        </p>
+                      </blockquote>
+                      <figcaption
+                        class="caption"
+                      >
+                        Author 1
+                      </figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide"
+                data-index="1"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <figure
+                    class="figure"
+                  >
+                    <div
+                      class="inner"
+                    >
+                      <blockquote
+                        class="quote"
+                      >
+                        <span>
+                          svg
+                        </span>
+                        <p
+                          class="paraghaph"
+                          style="text-align: center;"
+                        >
+                          Lorem ipsum
+                        </p>
+                      </blockquote>
+                      <figcaption
+                        class="caption"
+                      >
+                        Author 2
+                      </figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide"
+                data-index="2"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <figure
+                    class="figure"
+                  >
+                    <div
+                      class="inner"
+                    >
+                      <blockquote
+                        class="quote"
+                      >
+                        <span>
+                          svg
+                        </span>
+                        <p
+                          class="paraghaph"
+                          style="text-align: center;"
+                        >
+                          Lorem ipsum
+                        </p>
+                      </blockquote>
+                      <figcaption
+                        class="caption"
+                      >
+                        Author 3
+                      </figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="slick-dots"
+            style="display: block;"
+          >
+            <li
+              class="slick-active"
+            >
+              <button>
+                1
+              </button>
+            </li>
+            <li
+              class=""
+            >
+              <button>
+                2
+              </button>
+            </li>
+            <li
+              class=""
+            >
+              <button>
+                3
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="personal"
+    >
+      <h2
+        class=""
+      >
+        Personal
+      </h2>
+      <p
+        class="paraghaph paragraphLarge "
+      >
+        Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio.
+      </p>
+      <div
+        class="personalImages"
+      >
+        <div
+          class="personalImagesCol"
+        >
+          <img
+            alt="figure"
+            src="https://via.placeholder.com/319x319"
+          />
+          <img
+            alt="figure"
+            src="https://via.placeholder.com/319x178"
+          />
+        </div>
+        <div
+          class="personalImagesCol"
+        >
+          <img
+            alt="figure"
+            src="https://via.placeholder.com/319x178"
+          />
+          <img
+            alt="figure"
+            src="https://via.placeholder.com/319x319"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="contentBlock"
+    >
+      <section
+        class="block"
+        style="background-color: transparent;"
+      >
+        <div
+          class="container"
+        >
+          <h3
+            class="heading"
+          >
+            Heading level 1
+          </h3>
+          <p
+            class="paragraph"
+          >
+            Lorem ipsum dolor sit amet 
+          </p>
+          <div
+            class="links"
+          >
+            <a
+              class="primary"
+              href="#"
+            >
+              Read more
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div
+      class="shareSection"
+    >
+      <h4
+        class=""
+      >
+        Follow me
+      </h4>
+    </div>
+    <form
+      action="https://app.getresponse.com/add_subscriber.html"
+      class="newsletter"
+      id="newsletter"
+      method="post"
+    >
+      <div
+        class="newsletterContent"
+      >
+        <h3
+          class="title"
+        >
+          Subscribe to the newsletter
+        </h3>
+        <p
+          class="paraghaph"
+        >
+          I will send you unique content every Friday.
+        </p>
+        <div
+          class="fieldset"
+        >
+          <div
+            class="field"
+          >
+            <input
+              class="input null"
+              data-testid="input"
+              name="first_name"
+              placeholder="Your name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="field"
+          >
+            <input
+              class="input null"
+              data-testid="input"
+              name="email"
+              placeholder="Your email"
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+        <input
+          name="campaign_token"
+          type="hidden"
+          value="WMdq9"
+        />
+        <input
+          name="thankyou_url"
+          type="hidden"
+          value="https://marcin-kwiatkowski.com/thank-you"
+        />
+        <input
+          name="start_day"
+          type="hidden"
+          value="0"
+        />
+        <footer
+          class="footer"
+        >
+          <p>
+            Also i will send you send you PDF with 112 pages about PWA Studio Rich Content renderers
+          </p>
+          <button
+            class="primary"
+            type="submit"
+          >
+            Subscribe
+          </button>
+        </footer>
+      </div>
+    </form>
+    <footer
+      class="pageFooter"
+    >
+      <div
+        class="columns"
+      >
+        <div
+          class="footerColumn"
+        >
+          <button
+            class="header"
+            type="button"
+          >
+            <h5
+              class="heading"
+            >
+              Column 1
+            </h5>
+            <span
+              class="expandButton"
+            >
+              <span>
+                svg
+              </span>
+            </span>
+          </button>
+        </div>
+        <div
+          class="footerColumn"
+        >
+          <button
+            class="header"
+            type="button"
+          >
+            <h5
+              class="heading"
+            >
+              Column 2
+            </h5>
+            <span
+              class="expandButton"
+            >
+              <span>
+                svg
+              </span>
+            </span>
+          </button>
+        </div>
+        <div
+          class="footerColumn"
+        >
+          <button
+            class="header"
+            type="button"
+          >
+            <h5
+              class="heading"
+            >
+              Column 3
+            </h5>
+            <span
+              class="expandButton"
+            >
+              <span>
+                svg
+              </span>
+            </span>
+          </button>
+        </div>
+        <div
+          class="footerColumn"
+        >
+          <button
+            class="header"
+            type="button"
+          >
+            <h5
+              class="heading"
+            >
+              Column 4
+            </h5>
+            <span
+              class="expandButton"
+            >
+              <span>
+                svg
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <ul
+          class="bottomNav"
+        >
+          <li>
+            <a
+              href="#"
+            >
+              Link 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              Link 2
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              Link 3
+            </a>
+          </li>
+        </ul>
+        <p
+          class="copyright"
+        >
+          © 2021 Lorem ipsum
+        </p>
+      </div>
+    </footer>
+    <nav
+      class="mobileNav"
+    >
+      <a
+        href="/"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="Home"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            Home
+          </span>
+        </span>
+      </a>
+      <a
+        href="/blog"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="Blog"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            Blog
+          </span>
+        </span>
+      </a>
+      <a
+        href="/about-me"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="About"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            About
+          </span>
+        </span>
+      </a>
+      <a
+        href="/get-in-touch"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="Contact"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            Contact
+          </span>
+        </span>
+      </a>
+      <a
+        href="#newsletter"
+      >
+        <span
+          class="iconContainer"
+        >
+          <img
+            alt="Subscribe"
+            src="[object Object]"
+          />
+          <span
+            class="label"
+          >
+            Subscribe
+          </span>
+        </span>
+      </a>
+    </nav>
+  </div>
+</div>
+`;

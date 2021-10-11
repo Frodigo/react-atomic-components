@@ -1,0 +1,46 @@
+.tout {
+    min-height: 270px;
+    position: relative;
+}
+
+.figure {
+    margin: 0;
+    padding: 0;
+}
+
+.figure img {
+    display: block;
+    width: 100%;
+}
+
+.tape {
+    background-color: var(--color-secondary);
+    bottom: 0;
+    left: 0;
+    padding: var(--spacing-md);
+    position: absolute;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    .tout {
+        min-height: 340px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tout {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .tape {
+        transition: .3s background-color;
+    }
+
+    .tout:hover .tape,
+    .tout:focus .tape {
+        background-color: var(--color-primary);
+    }
+}

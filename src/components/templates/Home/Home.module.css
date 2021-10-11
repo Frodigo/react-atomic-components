@@ -1,0 +1,94 @@
+.hero {
+    position: relative;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.hero span {
+    display: block;
+}
+
+.figure,
+.figureDesktop {
+    bottom: 15px;
+    position: absolute;
+    right: 15px;
+}
+
+.figureDesktop {
+    display: none;
+}
+
+.marked {
+    color: var(--color-secondary);
+}
+
+.callToActionSection {
+    background-color: #d8d8d8;
+}
+
+.articles {
+    padding: var(--spacing-xxl) 0 0 ;
+}
+
+
+.articlesHeader,
+.articlesFooter {
+    padding: 0 var(--spacing-md);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.articlesFooter {
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .figure {
+        display: none;
+    }
+
+    .figureDesktop {
+        display: block;
+        transform: scale(0.5);
+        transform-origin: 100% 100%;
+    }
+
+    .mediaBlockList {
+        padding-bottom: var(--spacing-xxl);
+    }
+
+    .articlesInner {
+        display: flex;
+    }
+
+    .articlesInner > div {
+        flex: 1 1 50%;
+        margin: 0 var(--spacing-md);
+    }
+}
+
+.followMe {
+    border-top: 2px solid var(--color-text);
+    background-color:#d8d8d8;
+
+}
+
+@media (min-width: 1024px) {
+    .figureDesktop {
+        transform: scale(0.8);
+    }
+}
+
+@media (min-width: 1300px) {
+    .hero,
+    .mediaBlockList,
+    .articles {
+        margin: 0 auto;
+        max-width: var(--desktop-container-width);
+        padding: 60px 0;
+    }
+
+    .figureDesktop {
+        transform: scale(1);
+    }
+}

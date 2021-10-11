@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders correctly 1`] = `
+<div>
+  <div
+    class="formChoiceField"
+  >
+    <input
+      class="choice checkbox"
+      id="inputId"
+      name="input"
+      type="checkbox"
+    />
+    <label
+      class="label"
+      for="inputId"
+    >
+      label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Radio button renders correctly 1`] = `
+<div>
+  <div
+    class="formChoiceField"
+  >
+    <input
+      class="choice radio"
+      id="inputId"
+      name="input"
+      type="radio"
+    />
+    <label
+      class="label"
+      for="inputId"
+    >
+      label
+    </label>
+  </div>
+</div>
+`;

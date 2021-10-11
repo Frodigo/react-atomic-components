@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should be rendered Breadcrumbs renders correctly 1`] = `
+<div>
+  <nav
+    class="breadcrumbs"
+    items="[object Object],[object Object],[object Object]"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="breadcrumbsItem"
+        href="#"
+      >
+        <span
+          class="label"
+        >
+          Home
+        </span>
+      </a>
+      <a
+        class="breadcrumbsItem"
+        href="#"
+      >
+        <span
+          class="label"
+        >
+          Blog
+        </span>
+      </a>
+      <span
+        class="activeItem"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </nav>
+</div>
+`;

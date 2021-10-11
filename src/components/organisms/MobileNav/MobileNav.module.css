@@ -1,0 +1,80 @@
+.mobileNav {
+    align-items: center;
+    background-color: var(--color-text);
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 var(--spacing-xs);
+    position: fixed;
+    right: 0;
+    z-index: var(--z-index-largest);
+}
+
+.submenu {
+    align-items: center;;
+    background-color: var(--color-primary);
+    bottom: -100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 0;
+    padding: var(--spacing-xl);
+    position: fixed;
+    right: 0;
+    transition: .3s bottom;
+}
+
+.submenuOpened {
+    composes: submenu;
+    bottom: 50px;
+}
+
+.submenuItems {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.submenuItem {
+    flex: 1 1 50%;
+    text-decoration: none;
+}
+
+
+.submenuItem > span {
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    justify-content: center;
+    height: 100px;
+}
+
+.closeButton,
+.submenuTrigger {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.submenuHeader {
+    align-items: center;
+    border-bottom: 2px solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.submenuHeader h2 {
+    font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+    .mobileNav {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.content {
+    padding: var(--spacing-xxl) var(--spacing-md);
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.figure {
+    margin-top: var(--spacing-xl);
+}
+
+.figure img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .content {
+        max-width: var(--tablet-container-width);
+        margin: 0 auto;
+    }
+}

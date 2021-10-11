@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Arrow should be rendered Arrow renders correctly 1`] = `
+<div>
+  <button
+    class="arrowLeft"
+    type="button"
+  >
+    <span>
+      svg
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Arrow should be rendered Disabled arrow renders correctly 1`] = `
+<div>
+  <button
+    class="arrowRight"
+    disabled=""
+    type="button"
+  >
+    <span>
+      svg
+    </span>
+  </button>
+</div>
+`;

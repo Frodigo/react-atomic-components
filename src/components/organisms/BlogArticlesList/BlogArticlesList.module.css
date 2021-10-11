@@ -1,0 +1,4 @@
+.list {
+    border-top: solid 2px var(--color-text);
+    margin-top: 15px;
+}

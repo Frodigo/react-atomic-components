@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconWithText should be rendered IconWithText renders correctly 1`] = `
+<div>
+  <span
+    class="iconContainer"
+  >
+    <img
+      alt="Home"
+      src="[object Object]"
+    />
+    <span
+      class="label"
+    >
+      Home
+    </span>
+  </span>
+</div>
+`;

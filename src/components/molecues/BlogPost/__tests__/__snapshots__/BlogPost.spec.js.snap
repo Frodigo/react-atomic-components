@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog post should be rendered Blog post renders correctly 1`] = `
+<div>
+  <div
+    class="block"
+  >
+    <div
+      class="blockInner"
+    >
+      <section
+        class="text"
+      >
+        <h2
+          class="heading"
+        >
+          <a
+            href="#"
+          >
+            This is a heading
+          </a>
+        </h2>
+        <div
+          class="meta"
+        >
+          <span
+            class="author"
+          >
+            Lorem ipsum
+          </span>
+          <span
+            class="metaItem"
+          >
+            <time
+              datetime="1602280800000"
+            >
+              10 October 2020
+            </time>
+          </span>
+        </div>
+        <a
+          class="primary"
+          href="#"
+        >
+          Read more
+        </a>
+      </section>
+      <div
+        class="shortDescription"
+      >
+        <p>
+          Lorem ipsum
+           
+          <a
+            href="#"
+          >
+            Read more
+          </a>
+        </p>
+      </div>
+      <figure
+        class="figure"
+      >
+        <a
+          href="#"
+        >
+          <img
+            alt="This is a heading"
+            src="https://via.placeholder.com/396x222"
+            width="500"
+          />
+        </a>
+      </figure>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareSection should be rendered ShareSection renders correctly 1`] = `
+<div>
+  <div
+    class="shareSection"
+  >
+    <h4
+      class=""
+    >
+      Did you like it? Share!
+    </h4>
+  </div>
+</div>
+`;

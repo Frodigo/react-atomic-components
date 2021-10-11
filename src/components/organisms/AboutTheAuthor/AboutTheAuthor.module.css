@@ -1,0 +1,63 @@
+.aboutTheAuthor {
+    border-top: solid 2px var(--color-primary);
+    padding: var(--spacing-xxl) var(--spacing-md);
+    text-align: center;
+}
+
+.authorName {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.figure {
+    background-color: #d8d8d8;
+    border: solid 1px #979797;
+    border-radius: 50%;
+    display: inline-block;
+    height: 270px;
+    margin: 30px auto;
+    width: 270px;
+    overflow: hidden;
+}
+
+.description {
+  margin-bottom: var(--spacing-xxl);
+}
+
+.figureDesktop {
+    composes: figure;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .inner {
+        max-width: var(--tablet-container-width);
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .aboutTheAuthor {
+        text-align: left;
+    }
+
+    .inner {
+        align-items: center;
+        display: flex;
+        max-width: var(--desktop-container-width);
+    }
+
+    .figure {
+        display: none;
+    }
+
+    .figureDesktop {
+        display: block;
+    }
+
+    .content {
+        flex: 1 1 60%;
+        padding-left: var(--spacing-xxl);
+    }
+}

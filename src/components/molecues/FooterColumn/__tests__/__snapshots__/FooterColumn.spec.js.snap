@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterColumn should be rendered FooterColumn renders correctly 1`] = `
+<div>
+  <div
+    class="footerColumn"
+  >
+    <button
+      class="header"
+      type="button"
+    >
+      <h5
+        class="heading"
+      >
+        Heading
+      </h5>
+      <span
+        class="expandButton"
+      >
+        <span>
+          svg
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

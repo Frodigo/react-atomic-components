@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should be rendered Heading 1 renders correctly 1`] = `
+<div>
+  <h1
+    class=""
+  >
+    Heading 1
+  </h1>
+</div>
+`;
+
+exports[`Heading should be rendered Heading 2 renders correctly 1`] = `
+<div>
+  <h2
+    class=""
+  >
+    Heading 2
+  </h2>
+</div>
+`;
+
+exports[`Heading should be rendered Heading 3 renders correctly 1`] = `
+<div>
+  <h3
+    class=""
+  >
+    Heading 3
+  </h3>
+</div>
+`;
+
+exports[`Heading should be rendered Heading 4 renders correctly 1`] = `
+<div>
+  <h4
+    class=""
+  >
+    Heading 4
+  </h4>
+</div>
+`;
+
+exports[`Heading should be rendered Heading 5 renders correctly 1`] = `
+<div>
+  <h5
+    class=""
+  >
+    Heading 5
+  </h5>
+</div>
+`;
+
+exports[`Heading should be rendered Heading 6 renders correctly 1`] = `
+<div>
+  <h6
+    class=""
+  >
+    Heading 6
+  </h6>
+</div>
+`;
+
+exports[`Heading should be rendered Heading inverse should render correctly 1`] = `
+<div>
+  <h1
+    class="inverse"
+  >
+    Heading inverse
+  </h1>
+</div>
+`;
+
+exports[`Heading should be rendered Heading with specific text align should render correctly 1`] = `
+<div>
+  <h3
+    class=""
+    style="text-align: center;"
+  >
+    Heading centered
+  </h3>
+</div>
+`;

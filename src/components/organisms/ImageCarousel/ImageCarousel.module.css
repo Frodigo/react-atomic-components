@@ -1,0 +1,15 @@
+.carousel {
+    padding: var(--spacing-md) 5px;
+}
+
+.title {
+    padding: 0 10px;
+    margin: var(--spacing-xl) 0 var(--spacing-xs);
+}
+
+
+@media (min-width: 1024px) {
+    .carousel svg {
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutThAuthor should be rendered AboutThAuthor renders correctly 1`] = `
+<div>
+  <div
+    class="aboutTheAuthor"
+  >
+    <div
+      class="inner"
+    >
+      <figure
+        class="figureDesktop"
+        style="background-image: url(https://via.placeholder.com/270x270);"
+      />
+      <article
+        class="content"
+      >
+        <h6
+          class=""
+        >
+          About the author
+        </h6>
+        <p
+          class="authorName"
+        >
+          Marcin Kwiatkowski
+        </p>
+        <figure
+          class="figure"
+          style="background-image: url(https://via.placeholder.com/270x270);"
+        />
+        <p
+          class="description"
+        >
+          Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie.
+        </p>
+        <a
+          class="secondary"
+          href="#"
+        >
+          Read more
+        </a>
+      </article>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page footer should be rendered Page footer renders correctly 1`] = `
+<div>
+  <footer
+    class="pageFooter"
+  >
+    <div
+      class="columns"
+    >
+      <div
+        class="footerColumn"
+      >
+        <button
+          class="header"
+          type="button"
+        >
+          <h5
+            class="heading"
+          >
+            Column 1
+          </h5>
+          <span
+            class="expandButton"
+          >
+            <span>
+              svg
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="footerColumn"
+      >
+        <button
+          class="header"
+          type="button"
+        >
+          <h5
+            class="heading"
+          >
+            Column 2
+          </h5>
+          <span
+            class="expandButton"
+          >
+            <span>
+              svg
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="footerColumn"
+      >
+        <button
+          class="header"
+          type="button"
+        >
+          <h5
+            class="heading"
+          >
+            Column 3
+          </h5>
+          <span
+            class="expandButton"
+          >
+            <span>
+              svg
+            </span>
+          </span>
+        </button>
+      </div>
+      <div
+        class="footerColumn"
+      >
+        <button
+          class="header"
+          type="button"
+        >
+          <h5
+            class="heading"
+          >
+            Column 4
+          </h5>
+          <span
+            class="expandButton"
+          >
+            <span>
+              svg
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <ul
+        class="bottomNav"
+      >
+        <li>
+          <a
+            href="#"
+          >
+            Link 1
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Link 2
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Link 3
+          </a>
+        </li>
+      </ul>
+      <p
+        class="copyright"
+      >
+        © 2021 Lorem ipsum
+      </p>
+    </div>
+  </footer>
+</div>
+`;

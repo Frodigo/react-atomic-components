@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph should be rendered Paragraph inverse should render correctly 1`] = `
+<div>
+  <p
+    class="inverse"
+  >
+    Paragraph inverse
+  </p>
+</div>
+`;
+
+exports[`Paragraph should be rendered Paragraph large renders correctly 1`] = `
+<div>
+  <p
+    class="paraghaph paragraphLarge "
+  >
+    Paragraph
+  </p>
+</div>
+`;
+
+exports[`Paragraph should be rendered Paragraph renders correctly 1`] = `
+<div>
+  <p
+    class="paraghaph"
+  >
+    Paragraph
+  </p>
+</div>
+`;
+
+exports[`Paragraph should be rendered Paragraph smaller renders correctly 1`] = `
+<div>
+  <p
+    class="paraghaph paragraphSmaller "
+  >
+    Paragraph
+  </p>
+</div>
+`;
+
+exports[`Paragraph should be rendered Paragraph with specific text align should render correctly 1`] = `
+<div>
+  <p
+    class="paraghaph"
+    style="text-align: center;"
+  >
+    Paragraph centered
+  </p>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tout should be rendered Tout renders correctly 1`] = `
+<div>
+  <div
+    class="tout"
+  >
+    <a
+      href="#"
+    >
+      <figure
+        class="figure"
+      >
+        <img
+          alt="figure"
+          layout="responsive"
+          src="https://via.placeholder.com/290x240"
+        />
+      </figure>
+      <header
+        class="tape"
+      >
+        <h5
+          class="inverse"
+        >
+          Lorem ipsum dolor sit
+        </h5>
+      </header>
+    </a>
+  </div>
+</div>
+`;

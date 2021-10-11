@@ -1,0 +1,55 @@
+.mediaBlock {
+    padding: 0 var(--spacing-md);
+    margin: var(--spacing-md) auto
+}
+
+.mediaBlockInner {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.content {
+    padding: var(--spacing-md) 0;
+}
+
+.content h5 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+.content p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.image svg {
+    height: auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .mediaBlock {
+        margin: var(--spacing-xxl) auto
+    }
+
+    .mediaBlockInner {
+        align-items: center;
+        display: flex;
+    }
+
+    .image {
+        flex: 1 1 30%;
+    }
+
+    .content {
+        padding-left: 50px;
+        flex: 1 1 70%;
+    }
+}

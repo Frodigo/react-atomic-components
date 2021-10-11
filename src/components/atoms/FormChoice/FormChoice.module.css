@@ -1,0 +1,50 @@
+.formChoiceField {
+    position: relative;
+    overflow: hidden;
+}
+
+.choice {
+    left: -999px;
+    position: absolute;
+}
+
+.choice + label {
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.choice + label::before {
+    border: 1px solid var(--color-secondary);
+    content: '';
+    display: inline-flex;
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.choice:checked + label::after {
+    background-color: var(--color-secondary);;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 3px;
+    position: absolute;
+    top: 6px;
+    width: 16px;
+}
+
+
+.radio {
+    composes: choice;
+    
+}
+
+.radio + label::before {
+    border-radius: 50%;
+}
+
+.radio:checked + label::after {
+    border-radius: 50%;
+}

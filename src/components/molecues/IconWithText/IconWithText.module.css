@@ -1,0 +1,29 @@
+.iconContainer {
+    align-items: center;
+    color: var(--color-gray-dark-3);
+    cursor: pointer;
+    display: flex;
+    height: 55px;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    min-width: 50px;
+}
+
+.iconContainerActive {
+    composes: iconContainer;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+}
+
+.label {
+    margin: 4px 0 2px;
+}
+
+.activeIcon path {
+    fill: var(--color-white);
+}

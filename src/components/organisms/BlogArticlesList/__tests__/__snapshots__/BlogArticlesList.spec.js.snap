@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog articles list should be rendered Articles list renders correctly 1`] = `
+<div>
+  <div
+    class="list"
+  >
+    <div
+      class="block"
+    >
+      <div
+        class="blockInner"
+      >
+        <section
+          class="text"
+        >
+          <h2
+            class="heading"
+          >
+            <a
+              href="#"
+            >
+              Title 1
+            </a>
+          </h2>
+          <div
+            class="meta"
+          >
+            <span
+              class="author"
+            >
+              Jan Kowalski
+            </span>
+            <span
+              class="metaItem"
+            >
+              <time
+                datetime="1608678000000"
+              >
+                23 December 2020
+              </time>
+            </span>
+          </div>
+          <a
+            class="primary"
+            href="#"
+          >
+            Read more
+          </a>
+        </section>
+        <div
+          class="shortDescription"
+        >
+          <p>
+            lorem upsum
+             
+            <a
+              href="#"
+            >
+              Read more
+            </a>
+          </p>
+        </div>
+        <figure
+          class="figure"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt="Title 1"
+              src="https://via.placeholder.com/396x222"
+              width="500"
+            />
+          </a>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="block"
+    >
+      <div
+        class="blockInner"
+      >
+        <section
+          class="text"
+        >
+          <h2
+            class="heading"
+          >
+            <a
+              href="#"
+            >
+              Title 2
+            </a>
+          </h2>
+          <div
+            class="meta"
+          >
+            <span
+              class="author"
+            >
+              Jan Kowalski
+            </span>
+            <span
+              class="metaItem"
+            >
+              <time
+                datetime="1608678000000"
+              >
+                23 December 2020
+              </time>
+            </span>
+          </div>
+          <a
+            class="primary"
+            href="#"
+          >
+            Read more
+          </a>
+        </section>
+        <div
+          class="shortDescription"
+        >
+          <p>
+            lorem upsum
+             
+            <a
+              href="#"
+            >
+              Read more
+            </a>
+          </p>
+        </div>
+        <figure
+          class="figure"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt="Title 2"
+              src="https://via.placeholder.com/396x222"
+              width="500"
+            />
+          </a>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="block"
+    >
+      <div
+        class="blockInner"
+      >
+        <section
+          class="text"
+        >
+          <h2
+            class="heading"
+          >
+            <a
+              href="#"
+            >
+              Title 3
+            </a>
+          </h2>
+          <div
+            class="meta"
+          >
+            <span
+              class="author"
+            >
+              Jan Kowalski
+            </span>
+            <span
+              class="metaItem"
+            >
+              <time
+                datetime="1608678000000"
+              >
+                23 December 2020
+              </time>
+            </span>
+          </div>
+          <a
+            class="primary"
+            href="#"
+          >
+            Read more
+          </a>
+        </section>
+        <div
+          class="shortDescription"
+        >
+          <p>
+            lorem upsum
+             
+            <a
+              href="#"
+            >
+              Read more
+            </a>
+          </p>
+        </div>
+        <figure
+          class="figure"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt="Title 3"
+              src="https://via.placeholder.com/396x222"
+              width="500"
+            />
+          </a>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="block"
+    >
+      <div
+        class="blockInner"
+      >
+        <section
+          class="text"
+        >
+          <h2
+            class="heading"
+          >
+            <a
+              href="#"
+            >
+              Title 4
+            </a>
+          </h2>
+          <div
+            class="meta"
+          >
+            <span
+              class="author"
+            >
+              Jan Kowalski
+            </span>
+            <span
+              class="metaItem"
+            >
+              <time
+                datetime="1608678000000"
+              >
+                23 December 2020
+              </time>
+            </span>
+          </div>
+          <a
+            class="primary"
+            href="#"
+          >
+            Read more
+          </a>
+        </section>
+        <div
+          class="shortDescription"
+        >
+          <p>
+            lorem upsum
+             
+            <a
+              href="#"
+            >
+              Read more
+            </a>
+          </p>
+        </div>
+        <figure
+          class="figure"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt="Title 4"
+              src="https://via.placeholder.com/396x222"
+              width="500"
+            />
+          </a>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+`;

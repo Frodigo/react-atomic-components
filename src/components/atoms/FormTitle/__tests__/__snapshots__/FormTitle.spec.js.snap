@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders correctly 1`] = `
+<div>
+  <label
+    class="label"
+  >
+    This is the label
+  </label>
+</div>
+`;
+
+exports[`Legend renders correctly 1`] = `
+<div>
+  <legend
+    class="legend"
+  >
+    This is the legend
+  </legend>
+</div>
+`;

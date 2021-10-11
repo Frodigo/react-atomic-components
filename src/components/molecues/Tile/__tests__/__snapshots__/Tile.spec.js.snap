@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile should be rendered Tile renders correctly 1`] = `
+<div>
+  <section
+    class="tile"
+  >
+    <h2
+      class="heading"
+    >
+      This is tile
+    </h2>
+  </section>
+</div>
+`;

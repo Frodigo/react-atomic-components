@@ -1,0 +1,20 @@
+.imageGrid {
+    margin: 30px -15px -15px;
+}
+
+.image {
+    margin-bottom: var(--spacing-md) !important;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .imageGrid {
+        display: flex;
+        padding: var(--spacing-md) 5px;
+    }
+
+    .gridCol {
+        flex: 1 1 50%;
+        padding: 10px;
+    }
+}

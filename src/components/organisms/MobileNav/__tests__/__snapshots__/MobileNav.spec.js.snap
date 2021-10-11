@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile nav should be rendered Mobile nav  with submenu shouldrenders correctly 1`] = `
+<div>
+  <nav
+    class="mobileNav"
+  >
+    <button
+      class="submenuTrigger"
+      type="button"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="Blog"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          Blog
+        </span>
+      </span>
+    </button>
+    <nav
+      class="submenu"
+    >
+      <header
+        class="submenuHeader"
+      >
+        <h2
+          class="inverse"
+        >
+          Read about:
+        </h2>
+      </header>
+      <div
+        class="submenuItems"
+      >
+        <a
+          class="submenuItem"
+          href="/pwastudio"
+        >
+          <span
+            class="iconContainer"
+          >
+            <img
+              alt="PWA Studio"
+              src="[object Object]"
+            />
+            <span
+              class="label"
+            >
+              PWA Studio
+            </span>
+          </span>
+        </a>
+      </div>
+      <a
+        class="tiertary"
+        href="/blog"
+        style="margin-top: 30px;"
+      >
+        Show all
+      </a>
+    </nav>
+  </nav>
+</div>
+`;
+
+exports[`Mobile nav should be rendered Mobile nav renders correctly 1`] = `
+<div>
+  <nav
+    class="mobileNav"
+  >
+    <a
+      href="/"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="Home"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          Home
+        </span>
+      </span>
+    </a>
+    <a
+      href="/blog"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="Blog"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          Blog
+        </span>
+      </span>
+    </a>
+    <a
+      href="/about-me"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="About"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          About
+        </span>
+      </span>
+    </a>
+    <a
+      href="/get-in-touch"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="Contact"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          Contact
+        </span>
+      </span>
+    </a>
+    <a
+      href="#newsletter"
+    >
+      <span
+        class="iconContainer"
+      >
+        <img
+          alt="Subscribe"
+          src="[object Object]"
+        />
+        <span
+          class="label"
+        >
+          Subscribe
+        </span>
+      </span>
+    </a>
+  </nav>
+</div>
+`;

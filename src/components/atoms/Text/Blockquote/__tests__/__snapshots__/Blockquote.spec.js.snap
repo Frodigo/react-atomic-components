@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blockquote should be rendered Blockquote inverse renders correctly 1`] = `
+<div>
+  <figure
+    class="figure"
+  >
+    <div
+      class="inner"
+    >
+      <blockquote
+        class="quote"
+      >
+        <span>
+          svg
+        </span>
+        <p
+          class="paraghaph"
+          style="text-align: center;"
+        >
+          Lorem ipsum
+        </p>
+      </blockquote>
+      <figcaption
+        class="caption"
+      >
+        Marcin Kwiatkowski
+      </figcaption>
+    </div>
+  </figure>
+</div>
+`;
+
+exports[`Blockquote should be rendered Blockquote renders correctly 1`] = `
+<div>
+  <figure
+    class="figure"
+  >
+    <div
+      class="inner"
+    >
+      <blockquote
+        class="quote"
+      >
+        <span>
+          svg
+        </span>
+        <p
+          class="paraghaph"
+          style="text-align: center;"
+        >
+          Lorem ipsum
+        </p>
+      </blockquote>
+      <figcaption
+        class="caption"
+      >
+        Marcin Kwiatkowski
+      </figcaption>
+    </div>
+  </figure>
+</div>
+`;

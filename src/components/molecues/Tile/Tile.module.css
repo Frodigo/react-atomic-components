@@ -1,0 +1,19 @@
+.tile {
+    align-items: center;
+    background-color: var(--color-alternate);
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+
+.heading {
+    color: var(--color-white);
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .tile {
+        padding: 60px 15px;
+    }
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page header should be rendered Page header renders correctly 1`] = `
+<div>
+  <header
+    class="pageHeader"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="link"
+        href="/"
+      >
+        <img />
+      </a>
+      <nav
+        class="primaryNav"
+      >
+        <a
+          class=" navLink"
+          href="#"
+        >
+          Home
+        </a>
+        <a
+          class="navLinkActive navLink"
+          href="#"
+        >
+          About me
+        </a>
+        <a
+          class=" navLink"
+          href="#"
+        >
+          Blog
+        </a>
+        <a
+          class=" navLink"
+          href="#"
+        >
+          Get in touch
+        </a>
+      </nav>
+    </div>
+  </header>
+</div>
+`;

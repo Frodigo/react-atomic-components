@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaBlockSmaller should be rendered MediaBlockSmaller renders correctly 1`] = `
+<div>
+  <div
+    class="mediaBlockSmaller"
+  >
+    <figure
+      class="figure"
+    >
+      <img
+        alt="Front end developer"
+        src="https://via.placeholder.com/290x240"
+      />
+    </figure>
+    <section
+      class="content"
+    >
+      <span
+        class="subtitle"
+      >
+        05/2020 - 10/2020
+      </span>
+      <h3
+        class=""
+      >
+        Front end developer
+      </h3>
+      Apple
+    </section>
+  </div>
+</div>
+`;

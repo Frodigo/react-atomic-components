@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dots should be rendered Dots renders correctly 1`] = `
+<div>
+  <nav
+    class="dots"
+  >
+    <button
+      class="dot"
+      type="button"
+    >
+      1
+    </button>
+    <button
+      class="dotActive"
+      type="button"
+    >
+      2
+    </button>
+    <button
+      class="dot"
+      type="button"
+    >
+      3
+    </button>
+    <button
+      class="dot"
+      type="button"
+    >
+      4
+    </button>
+  </nav>
+</div>
+`;

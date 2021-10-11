@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should be rendered Image carousel renders correctly 1`] = `
+<div>
+  <div
+    class="slider"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <figure
+                class="figure"
+              >
+                <div
+                  class="inner"
+                >
+                  <blockquote
+                    class="quote"
+                  >
+                    <span>
+                      svg
+                    </span>
+                    <p
+                      class="paraghaph"
+                      style="text-align: center;"
+                    >
+                      Lorem ipsum
+                    </p>
+                  </blockquote>
+                  <figcaption
+                    class="caption"
+                  >
+                    Author 1
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <figure
+                class="figure"
+              >
+                <div
+                  class="inner"
+                >
+                  <blockquote
+                    class="quote"
+                  >
+                    <span>
+                      svg
+                    </span>
+                    <p
+                      class="paraghaph"
+                      style="text-align: center;"
+                    >
+                      Lorem ipsum
+                    </p>
+                  </blockquote>
+                  <figcaption
+                    class="caption"
+                  >
+                    Author 2
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <figure
+                class="figure"
+              >
+                <div
+                  class="inner"
+                >
+                  <blockquote
+                    class="quote"
+                  >
+                    <span>
+                      svg
+                    </span>
+                    <p
+                      class="paraghaph"
+                      style="text-align: center;"
+                    >
+                      Lorem ipsum
+                    </p>
+                  </blockquote>
+                  <figcaption
+                    class="caption"
+                  >
+                    Author 3
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

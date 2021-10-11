@@ -1,0 +1,80 @@
+.shareSection {
+    border-top: solid 2px var(--color-primary);
+    padding: var(--spacing-xxl) var(--spacing-md);
+    text-align: center;
+}
+
+.shareLinks {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.shareLinks li {
+    margin: 7px;
+}
+
+.shareLinks button {
+    outline: none;
+}
+
+.shareLinks li::before {
+    display: none;
+}
+
+.shareLink {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.facebook {
+    composes: shareLink;
+    background-color: var(--color-alternate);
+}
+
+.twitter {
+    composes: shareLink;
+    background-color: var(--color-primary);
+}
+
+.linkedin {
+    composes: shareLink;
+    background-color: var(--color-tiertary);
+}
+
+.mail {
+    composes: shareLink;
+    background-color: var(--color-secondary);
+}
+
+.messenger {
+    composes: shareLink;
+    background-color: var(--color-blue);
+}
+
+.telegram {
+    composes: shareLink;
+    background-color: var(--color-red);
+}
+
+.whatsapp {
+    composes: shareLink;
+    background-color: var(--color-green);
+}
+
+@media (min-width: 1300px) {
+    .shareLink {
+        transform: scale(1);
+        transition: transform .3s ease-in-out;
+    }
+
+    .shareLink:hover,
+    .shareLink:focus {
+        transform: scale(1.2);
+    }
+}

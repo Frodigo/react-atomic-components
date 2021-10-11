@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content block should be rendered Content renders correctly 1`] = `
+<div>
+  <section
+    class="block"
+    style="background-color: transparent;"
+  >
+    <div
+      class="container"
+    >
+      <h3
+        class="heading"
+      >
+        This is a heading
+      </h3>
+      <p
+        class="paragraph"
+      >
+        Lorem ipsum
+      </p>
+      <div
+        class="links"
+      >
+        <a
+          href="#"
+        >
+          call to action
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+`;
