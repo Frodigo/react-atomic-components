@@ -34,6 +34,10 @@
     display: none;
 }
 
+.linksOpen {
+    display: block;
+}
+
 .expandButton {
     display: inline-block;
 }

@@ -9,7 +9,7 @@ import classes from './FooterColumn.module.css';
 
 const FooterColumn = (props) => {
     const { heading, subheadings, ...rest } = props;
-
+    console.log(subheadings)
     const [isOpen, setIsOpen] = useState(false);
 
     const footerColumnClass = isOpen
@@ -17,6 +17,7 @@ const FooterColumn = (props) => {
         : classes.footerColumn;
     const buttonIcon = isOpen ? <MinusIcon /> : <PlusIcon />;
     const linksContent = subheadings.map((item) => (
+
         <h6 key={item._uid} className={classes.subheading}>
             <Link className={classes.subheadingLink} href={item.url}>
                 {item.label}
@@ -34,7 +35,7 @@ const FooterColumn = (props) => {
                 <h5 className={classes.heading}>{heading}</h5>
                 <span className={classes.expandButton}>{buttonIcon}</span>
             </button>
-            {isOpen && <section className={classes.links}>{linksContent}</section>}
+            <section className={isOpen ? classes.linksOpen : classes.links}>{linksContent}</section>
         </div>
     );
 };
