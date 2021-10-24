@@ -1,80 +1,91 @@
 .button {
-    border: 2px solid transparent;
-    border-radius: 2px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: var(--font-weight-bold);
-    padding: 20px 70px;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+  padding: 20px 70px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
 }
 
 .button[disabled],
 .button.disabled {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .primary {
-    composes: button;
-    background-color: var(--color-primary);
-    color: var(--color-white);
+  composes: button;
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .primary.active,
-.primary[active="true"] {
-    background-color: var(--color-tiertary);
+.primary[active='true'] {
+  background-color: var(--color-tiertary);
 }
 
 .secondary {
-    composes: button;
-    background-color: var(--color-white);
-    border-color: var(--color-primary);
-    color: var(--color-primary);
+  composes: button;
+  background-color: var(--color-white);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .secondary.active,
-.secondary[active="true"] {
-    background-color: var(--color-primary);
-    color: var(--color-white)
+.secondary[active='true'] {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
-
 .tiertary {
-    composes: button;
-    background-color: transparent;
-    border-color: var(--color-white);
-    color: var(--color-white);
+  composes: button;
+  background-color: transparent;
+  border-color: var(--color-white);
+  color: var(--color-white);
 }
 
 .tiertary.active,
-.tiertary[active="true"] {
-    background-color: rgba(255, 255, 255, 0.1);
+.tiertary[active='true'] {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.inverse {
+  color: var(--color-white);
+}
+.inverse[disabled],
+.inverse.disabled {
+  opacity: 0.7;
+}
+
+.inverse:focus {
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
-    .button {
-        display: inline-flex;
-        width: auto;
-    }
+  .button {
+    display: inline-flex;
+    width: auto;
+  }
 }
 
 @media (min-width: 1300px) {
-    .button {
-        transition: all .3s ease-in-out;
-    }
+  .button {
+    transition: all 0.3s ease-in-out;
+  }
 
-    .primary:hover,
-    .primary:focus {
-        background-color: var(--color-secondary);
-    }
+  .primary:hover,
+  .primary:focus {
+    background-color: var(--color-secondary);
+  }
 
-    .secondary:hover,
-    .secondary:focus {
-        background-color: var(--color-primary);
-        color: var(--color-white);
-    }
+  .secondary:hover,
+  .secondary:focus {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
 }
